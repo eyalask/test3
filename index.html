@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="he" >
+  <head>
+    <title>My Bootsrap Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/mycss.css" rel="stylesheet" media="screen">
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+     <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+ 
+  </head>
+  <body>
+		
+        <div class="mycontainer ">
+               
+                 <!-- My Nav Bar    ------------------------>
+     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">לוגו הארגון</a>
+          </div>
+        
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse ">
+           		<ul class="nav navbar-nav navbar-right  "  id="menu_items">
+              <li class="active navbar-right"><a href="#">דף הבית</a></li>
+              <li class="navbar-right"><a href="#">מי אנחנו</a></li>
+               <li class="navbar-right"> <a href="/pages/schedualGuests.html">דוחות</a></li>
+               <li class="navbar-right"><a href="#">צרו קשר</a></li>
+              <li  class="navbar-right">
+              
+                <a href="#" class="dropdown-toggle " data-toggle="dropdown">עזרה <b class="caret"></b></a>
+             	   <ul class="dropdown-menu ">
+                          <li ><a href="#">בלוג</a></li>
+                          <li ><a href="#">פורום</a></li>
+                          <li ><a href="#">שאלות ותשובות</a></li>
+                          <li ><a href="#">גירסה 1.0.1</a></li>
+                  </ul>
+                  
+              </li>
+            </ul>
+            
+            <button type="button" class="btn btn-default navbar-btn  btn-inverse  navbar-left  btn-xs "  >Register</button>
+          <button type="button" class="btn btn-default navbar-btn  navbar-left btn-xs btn-primary"  >Sign in</button>
+          </div><!-- /.navbar-collapse -->
+          
+        </nav> <!-- End of Nav Bar    ------------------------>
+    
+        <!-- My Carousel     -->   
+         <div id="carousel-example" class="carousel slide">
+         	
+            	<!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+              </ol>
+                
+                <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                
+                        <div class="item active">
+                                  <img src="gallery/Place_1.jpg" alt="IMG1">
+                                  <div class="carousel-caption" >  אולם1   <button  type="button" class="btn btn-primary  btn-sm ">לפרטים</button>  </div>
+                               
+                        </div>
+                		
+                        <div class="item ">
+                                  <img src="gallery/Place_2.jpg" alt="IMG2">
+                                  <div class="carousel-caption">  אולם2   <button  type="button" class="btn btn-primary  btn-sm ">לפרטים</button></div>
+                		</div>
+                
+                		<div class="item ">
+                  		        <img src="gallery/Place_3.jpg" alt="IMG3">
+                   		       <div class="carousel-caption"> אולם3   <button  type="button" class="btn btn-primary  btn-sm ">לפרטים</button></div>
+              		  </div>
+          
+              </div>
+              
+         </div><!-- End of My Carousel     -->   
+         
+          <!-- My  Products     -->  
+         <section id="products" class="row">
+        
+             <div class="col-sm-4" >
+                    <h4>אישורי הגעה</h4>
+                    <img src="gallery/Place_4.jpg" alt="..."  class="img-thumbnail img-responsive">
+                    <p>כאן תוכל לבדוק את אישורי ההגעה של האורחים שלך..</p>
+                    <br>
+                    <button  type="button"  class="btn  btn-primary ">המשך לקרוא..</button>
+                </div>
+                
+                <div class="col-sm-4" >
+                    <h4>תיזכורות לאורחים</h4>
+                    <img src="gallery/Place_5.jpg" alt="..." class="img-thumbnail img-responsive">
+                    <p>כאן תוכל לנהל את זמני התזכורות של האורחים שלך..</p>
+                    <br>
+                    <button  type="button"  class="btn  btn-primary ">המשך לקרוא..</button>
+                </div>
+                
+                <div class="col-sm-4" >
+                    <h4>הצעות מחיר</h4>
+                    <img src="gallery/Place_6.jpg" alt="..." class="img-thumbnail img-responsive">
+                    <p>כאן תוכל לקבל ולהשוות את הצעות המחיר השונות מול הספקים..</p>
+                    <br>
+                    <button  type="button"  class="btn  btn-primary ">המשך לקרוא..</button>
+                </div>
+                
+        </section><!--End of My  Products     -->  
+       
+        
+        
+     <!-- Additional information     -->      
+   <!-- <section id="information" class="row">
+    
+    
+    	<div class="col-md-9">
+        	<h1 >כותרת למידע נוסף שאפשר להוסיף</h1>
+            <h2 class="text-muted">
+            כל מיני תוספות קטנות וקלות כאלו של טקסט
+            </h2 >
+            <p class="lead">
+            תכנות מונחה-עצמים היווה מהפכה בכתיבת תוכנה, ודרש מהמתכנתים התייחסות אחרת לפתרון בעיות ורכישת הרגלי תכנות חדשים. תכנות מונחה-עצמים הוא חלק מתפיסת פיתוח מונחית-עצמים, הכוללת גם ניתוח מערכות מונחה-עצמים (OOA), עיצוב מונחה-עצמים (OOD) ובמידה חלקית גם בסיסי נתונים 
+            <br>
+            הפרדיגמה של תכנות מונחה-עצמים צמחה מהתכנות הפרוצדורלי והמודולרי שבוסס על שגרות ופונקציות שפעלו על מבני נתונים חופשיים. שיטה זו יצרה קושי רב, מכיוון שכל שינוי בהגדרת משתנים בתוכנית חייב שינוי בפונקציות שפעלו בכל מרחב התוכנה. ככל שהתוכנה הייתה גדולה ומורכבת הקושי הלך והתעצם, דבר שגרר תחזוקה רבה ואיטיות ומורכבות בפיתוח ככל שהתקדם.
+            </p>
+             <h2 class="text-muted">מתוך Wikipedia </h2>
+        </div>-->
+        
+        
+     <!-- <div class="col-md-3"  style="padding-right:50px;">
+       <img src="gallery/additional.jpg"  class="img-responsive  img-thumbnail ">
+       </div>-->
+   </section><!-- End of Additional information     --> 
+              
+          <footer>
+            <p>
+                <h5 class="pull-left">כל הזכויות שמורות לחברת אייוויב 2015</h5>
+            </p>
+        </footer>      
+                
+     </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>     
+     <script>
+
+	$(document).ready(function() {
+	        $('.carousel').carousel({
+	  interval: 3500
+	})
+    });
+	
+	</script>
+     
+  </body>
+</html>
